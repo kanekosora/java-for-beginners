@@ -18,7 +18,7 @@ public class RectTest extends MyFrame{
 		fillRect(30,150,50,100);
 		
 		setColor(255,255,255);
-		fillRect(35,45,40,40);
+		fillRect(35,50,40,40);
 	}
 
 	public static void main(String[] args) {

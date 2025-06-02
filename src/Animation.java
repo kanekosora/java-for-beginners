@@ -157,45 +157,48 @@ public class Animation extends MyFrame{
 			}
 		}*/
 		
-		int x = 50;
+		/*int x = 50;     //5-EX2
 		int y = 50;
-		while(y<=400) {
-			if(x == 50) {
+		int count = 1;
+		while(true) {
+			if(x == 50&&y==50*count) {     //右に動く
 				while(x<=200) {
 					//画面を消す
 					clear();
 					//四角形を表示する
 					setColor(0,128,0);
-					fillRect(x,50,40,150);
+					fillRect(x,y,40,40);
 					x+=5;
 					sleep(0.01);
 			    }
+				count = count+1;
 			}
-			if(y == 200) {
-				while(x>=50) {
+			if(x == 205&&y==50*count) {     //左に動く
+				while(x>50) {
 					//画面を消す
 					clear();
 					//四角形を表示する
 					setColor(0,128,0);
-					fillRect(x,y,40,150);
+					fillRect(x,y,40,40);
 					x-=5;
 					sleep(0.01);
 				}
+				count = count+1;
 			}
 			
 			//画面を消す
 			clear();
 			//四角形を表示する
 			setColor(0,128,0);
-			fillRect(x,y,40,150);
+			fillRect(x,y,40,40);
 			y+=5;
 			sleep(0.01);
 			
-			if(y==400) {
-				x = 50;
-				y =50;
-			}
-		}
+			//if(y==400) {
+			//	x = 50;
+			//	y =50;
+			//}
+		}*/
 	}
 
 	public static void main(String[] args) {

@@ -1,24 +1,26 @@
 
 
-public class Car {
-	int x,y,vx;
-	public Car(int x, int y, int vx) {
-		this.x=x;
-		this.y=y;
-		this.vx=vx;
+public class Car extends Vehicle{
+	//int x,y,vx,vy;
+	public Car(int x, int y, int vx, int vy) {
+		super(x,y,vx,vy);
 	}
 	public void draw(MyFrame frame) {
-		frame.fillRect(x,y,100,30);
-		frame.fillRect(x+20,y-20,60,30);
-		frame.fillOval(x+15,y+30,30,25);	
-		frame.fillOval(x+60,y+30,25,25);
+		frame.fillRect(x+20,y,40,20);
+		frame.fillRect(x,y+20,80,20);
+		frame.fillOval(x+10,y+40,20,20);	
+		frame.fillOval(x+50,y+40,20,20);
 	}
-	public void move() {
+	/*public void move() {
 		x+=vx;
-	}
+		y+=vy;
+	}*/
 	public void move1() {
 		x-=vx;
 	}
+	/*public void move2() {
+		x=50;
+	}*/
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 

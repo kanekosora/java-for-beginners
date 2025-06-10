@@ -1,8 +1,6 @@
-import java.util.Vector;
-
 public class DisplayVehicleVector extends MyFrame{
 public void run(){
-	Vector<Vehicle>vehicles=new Vector<Vehicle>();
+	/*Vector<Vehicle>vehicles=new Vector<Vehicle>();
 	vehicles.add(new Car(10,30,3,0));
 	vehicles.add(new Car(10,100,5,0));
 	vehicles.add(new Train(10,180,7,0));
@@ -12,7 +10,7 @@ public void run(){
 			vehicles.get(j).draw(this);
 			vehicles.get(j).move();
 		}
-	}
+	}*/
 }
 
 	public static void main(String[] args) {

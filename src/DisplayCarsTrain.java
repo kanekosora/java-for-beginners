@@ -34,7 +34,7 @@ public class DisplayCarsTrain extends MyFrame{
 		    }
 		    sleep(0.1);
 	    }*/
-		while(true) {   //練習問題8-CHALLENGE
+		/*while(true) {   //練習問題8-CHALLENGE
 	    clear();
 	    for(int j=0; j<vehicles.length; j++) {
 		    vehicles[j].draw(this);
@@ -46,7 +46,7 @@ public class DisplayCarsTrain extends MyFrame{
 	    	}
 	    }
 	    sleep(0.01);
-    }
+        }*/
 	}
 
 	public static void main(String[] args) {

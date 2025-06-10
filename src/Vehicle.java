@@ -10,7 +10,7 @@ public class Vehicle {
 	public void draw( MyFrame f) {
 		
 	}
-	public void move() {
+	/*public void move() {
 		x+=vx;
 		y+=vy;
 	}
@@ -29,7 +29,7 @@ public class Vehicle {
 			x=400;
 		}
 	}
-	public void move4(MyFrame frame) {     //8
+	public void move4(MyFrame frame) {     //8-CHALLENGE
 		x+=vx;
 		int width = frame.getWidth();
 		if(x>width)
@@ -38,14 +38,14 @@ public class Vehicle {
 			
 		}
 	}
-	public void move5(MyFrame frame) {     //8
+	public void move5(MyFrame frame) {     //8-CHALLENGE
 		x-=vx;
 		int width = frame.getWidth();
         if(x<0)
 		{
 			x=width;
 		}
-	}
+	}*/
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 
